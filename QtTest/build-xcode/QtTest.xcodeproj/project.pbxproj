@@ -1,0 +1,1063 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		107CD7D891E1475E87FD5B68 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8C0B277C394A418492FBD482 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				81B417E301D6449A9E700FD1 /* CMake Rules */,
+			);
+			dependencies = (
+				576BDE530482471E8E83DA90 /* PBXTargetDependency */,
+				564B900E349846B391F4E1D7 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		2858838CA3E84E929EF9E7AF /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48C0699413B7411FB799BB8F /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				65C0AA90DE9E4F938D24EB22 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				E2E7F2ED89BE46CDA33B69AA /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		810E1F292AA84EDB810A41E4 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0F140798C93B4937A0DC2B10 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A94E8259B38C45E18531E167 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F74EC20ACD7645D89F938C07 /* QtTest_automoc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 55AD2279E40E42549AE19BA5 /* Build configuration list for PBXAggregateTarget "QtTest_automoc" */;
+			buildPhases = (
+				D99346FBC1334840AAFB1F92 /* CMake Rules */,
+			);
+			dependencies = (
+				0E0FA1818003436CB42DD786 /* PBXTargetDependency */,
+			);
+			name = QtTest_automoc;
+			productName = QtTest_automoc;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0666709785A44D7BB19C520F /* /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeFiles/QtTest.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 2C69D01AE94D4B589D6D8E44 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeFiles/QtTest.dir/Info.plist */; settings = {COMPILER_FLAGS = ""; }; };
+		79936949620D41179BBAFFB9 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 79DE5EF50C9A4F8CA459F15F /* /Users/oleh/Documents/test/FuckingCMake/QtTest/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		8EC0F2F15A9545E7A10C0089 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/main.cpp */ = {isa = PBXBuildFile; fileRef = 3B413632443F40AE91A8754C /* /Users/oleh/Documents/test/FuckingCMake/QtTest/main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A64086CA78634378B57A3FCD /* /Users/oleh/Documents/test/FuckingCMake/QtTest/TestForm.cpp */ = {isa = PBXBuildFile; fileRef = 6B357A629C244FBFB045D683 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/TestForm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D5CD225BFBAB40B693F14564 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/QtTest_automoc.cpp */ = {isa = PBXBuildFile; fileRef = DB305900C8CE441C86AE263C /* /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/QtTest_automoc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D9040141C73644918185BDFF /* /Users/oleh/Documents/test/FuckingCMake/QtTest/TestForm.h */ = {isa = PBXBuildFile; fileRef = 65559C6C684C49EA8E6A6376 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/TestForm.h */; settings = {COMPILER_FLAGS = ""; }; };
+		DD7DE05D0A654DD78D65D476 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/TestForm.ui */ = {isa = PBXBuildFile; fileRef = 3FE94DF4102A4A1F80C70A45 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/TestForm.ui */; settings = {COMPILER_FLAGS = ""; }; };
+		F5FBF71765D64F4984AEF6BE /* /Users/oleh/Documents/test/FuckingCMake/QtTest/QtTest.icns */ = {isa = PBXBuildFile; fileRef = 4464965876924E218FBBCEC0 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/QtTest.icns */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		37F6B15848DA4C4388E71647 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		4EA8A2C6010741169AF8C65F = {
+			isa = PBXBuildStyle;
+		};
+		55E365EB355940F99F7D43E8 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		567288896C0A45EA8C802303 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		59ABF90C2F604B19AF39BAB5 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0D6CA524E55B4A51B29D6685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4935B0873FC24908B78CC4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A1E12352D548158F37C65F;
+			remoteInfo = QtTest;
+		};
+		5688141D7454404CB014A039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4935B0873FC24908B78CC4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F74EC20ACD7645D89F938C07;
+			remoteInfo = QtTest_automoc;
+		};
+		5F7D8EC21DD9494CA09432FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4935B0873FC24908B78CC4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107CD7D891E1475E87FD5B68;
+			remoteInfo = ALL_BUILD;
+		};
+		6C19689149D64718AAAE48C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4935B0873FC24908B78CC4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810E1F292AA84EDB810A41E4;
+			remoteInfo = ZERO_CHECK;
+		};
+		AC7B7661DD0549C282EF78A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4935B0873FC24908B78CC4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810E1F292AA84EDB810A41E4;
+			remoteInfo = ZERO_CHECK;
+		};
+		B241AE6CA8484CE6973DC7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4935B0873FC24908B78CC4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810E1F292AA84EDB810A41E4;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C69D01AE94D4B589D6D8E44 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeFiles/QtTest.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "build-xcode/CMakeFiles/QtTest.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		3B413632443F40AE91A8754C /* /Users/oleh/Documents/test/FuckingCMake/QtTest/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		3FE94DF4102A4A1F80C70A45 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/TestForm.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TestForm.ui; path = TestForm.ui; sourceTree = SOURCE_ROOT; };
+		4464965876924E218FBBCEC0 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/QtTest.icns */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = QtTest.icns; path = QtTest.icns; sourceTree = SOURCE_ROOT; };
+		4C81D7014BFC4B1CBE46A9F2 /* QtTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = QtTest; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		65559C6C684C49EA8E6A6376 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/TestForm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TestForm.h; path = TestForm.h; sourceTree = SOURCE_ROOT; };
+		6B357A629C244FBFB045D683 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/TestForm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TestForm.cpp; path = TestForm.cpp; sourceTree = SOURCE_ROOT; };
+		79DE5EF50C9A4F8CA459F15F /* /Users/oleh/Documents/test/FuckingCMake/QtTest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9F577F41A52040E59B749564 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ACCB5DAF8A29449B9A0B882F /* /Users/oleh/Documents/test/FuckingCMake/QtTest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BC1631E904BD41A182D44A9A /* /Users/oleh/Documents/test/FuckingCMake/QtTest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DB305900C8CE441C86AE263C /* /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/QtTest_automoc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = QtTest_automoc.cpp; path = "build-xcode/QtTest_automoc.cpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		076B2C1E7A9746DF8E41B940 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		23B70F3763624EECB8F6977F /* QtTest_automoc */ = {
+			isa = PBXGroup;
+			children = (
+				E201EA5F59BC4A01BD281690 /* CMake Rules */,
+				BC1631E904BD41A182D44A9A /* /Users/oleh/Documents/test/FuckingCMake/QtTest/CMakeLists.txt */,
+			);
+			name = QtTest_automoc;
+			sourceTree = "<group>";
+		};
+		2432803FD43241589FBB211A = {
+			isa = PBXGroup;
+			children = (
+				B57E91E77EB34B5B8D02FB82 /* Sources */,
+				CF25DBB926964724B8AFD77D /* Resources */,
+				F040C0A5FBD7474A8CE7ABC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34A9EB4B928B4399B75557C8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B357A629C244FBFB045D683 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/TestForm.cpp */,
+				DB305900C8CE441C86AE263C /* /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/QtTest_automoc.cpp */,
+				3B413632443F40AE91A8754C /* /Users/oleh/Documents/test/FuckingCMake/QtTest/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		542C3E555CB4460AA1247DC5 /* QtTest */ = {
+			isa = PBXGroup;
+			children = (
+				34A9EB4B928B4399B75557C8 /* Source Files */,
+				A5A62918A7CB4A2C8C0505C4 /* Header Files */,
+				A4CF58B808804B9684A6FD11 /* Resources */,
+				79DE5EF50C9A4F8CA459F15F /* /Users/oleh/Documents/test/FuckingCMake/QtTest/CMakeLists.txt */,
+				4464965876924E218FBBCEC0 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/QtTest.icns */,
+				3FE94DF4102A4A1F80C70A45 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/TestForm.ui */,
+			);
+			name = QtTest;
+			sourceTree = "<group>";
+		};
+		88BE560F91894E0B8DFB7496 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		97FFE76B5E52427589C78046 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				076B2C1E7A9746DF8E41B940 /* CMake Rules */,
+				9F577F41A52040E59B749564 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A4CF58B808804B9684A6FD11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C69D01AE94D4B589D6D8E44 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeFiles/QtTest.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A5A62918A7CB4A2C8C0505C4 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				65559C6C684C49EA8E6A6376 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/TestForm.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B57E91E77EB34B5B8D02FB82 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				23B70F3763624EECB8F6977F /* QtTest_automoc */,
+				97FFE76B5E52427589C78046 /* ALL_BUILD */,
+				EBCA4A4B8CE34A0D81056737 /* ZERO_CHECK */,
+				542C3E555CB4460AA1247DC5 /* QtTest */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		CF25DBB926964724B8AFD77D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4464965876924E218FBBCEC0 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/QtTest.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E201EA5F59BC4A01BD281690 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EBCA4A4B8CE34A0D81056737 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				88BE560F91894E0B8DFB7496 /* CMake Rules */,
+				ACCB5DAF8A29449B9A0B882F /* /Users/oleh/Documents/test/FuckingCMake/QtTest/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		F040C0A5FBD7474A8CE7ABC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C81D7014BFC4B1CBE46A9F2 /* QtTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28A1E12352D548158F37C65F /* QtTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57125C3D55144AD08AC4BB22 /* Build configuration list for PBXNativeTarget "QtTest" */;
+			buildPhases = (
+				7387783CB8ED4E2892B6F963 /* Resources */,
+				CE20CDB1DE0641608DDFD5C2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE1CFE18E91A4D388B65F398 /* PBXTargetDependency */,
+				77AF259F73F542A1900E2E49 /* PBXTargetDependency */,
+			);
+			name = QtTest;
+			productName = QtTest;
+			productReference = 4C81D7014BFC4B1CBE46A9F2 /* QtTest */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4935B0873FC24908B78CC4C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 7A7812C19B0745558EE563F1 /* Build configuration list for PBXProject "QtTest" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				55E365EB355940F99F7D43E8 /* Debug */,
+				567288896C0A45EA8C802303 /* Release */,
+				37F6B15848DA4C4388E71647 /* MinSizeRel */,
+				59ABF90C2F604B19AF39BAB5 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 2432803FD43241589FBB211A;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				107CD7D891E1475E87FD5B68 /* ALL_BUILD */,
+				28A1E12352D548158F37C65F /* QtTest */,
+				F74EC20ACD7645D89F938C07 /* QtTest_automoc */,
+				810E1F292AA84EDB810A41E4 /* ZERO_CHECK */,
+				2858838CA3E84E929EF9E7AF /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65C0AA90DE9E4F938D24EB22 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode -f /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6CA91D6A5A75452FA8901862 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7CE06B4E41104690B7F1C835 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		81B417E301D6449A9E700FD1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode -f /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A94E8259B38C45E18531E167 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode -f /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B8B19F179DFB40ED9F5C0CA5 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D99346FBC1334840AAFB1F92 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode -f /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeScripts/QtTest_automoc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E11CFA5DEDDA491682083987 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7387783CB8ED4E2892B6F963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FBF71765D64F4984AEF6BE /* /Users/oleh/Documents/test/FuckingCMake/QtTest/QtTest.icns */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE20CDB1DE0641608DDFD5C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64086CA78634378B57A3FCD /* /Users/oleh/Documents/test/FuckingCMake/QtTest/TestForm.cpp */,
+				D5CD225BFBAB40B693F14564 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/QtTest_automoc.cpp */,
+				8EC0F2F15A9545E7A10C0089 /* /Users/oleh/Documents/test/FuckingCMake/QtTest/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E0FA1818003436CB42DD786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810E1F292AA84EDB810A41E4 /* ZERO_CHECK */;
+			targetProxy = B241AE6CA8484CE6973DC7C4 /* PBXContainerItemProxy */;
+		};
+		564B900E349846B391F4E1D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28A1E12352D548158F37C65F /* QtTest */;
+			targetProxy = 0D6CA524E55B4A51B29D6685 /* PBXContainerItemProxy */;
+		};
+		576BDE530482471E8E83DA90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810E1F292AA84EDB810A41E4 /* ZERO_CHECK */;
+			targetProxy = 6C19689149D64718AAAE48C6 /* PBXContainerItemProxy */;
+		};
+		77AF259F73F542A1900E2E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F74EC20ACD7645D89F938C07 /* QtTest_automoc */;
+			targetProxy = 5688141D7454404CB014A039 /* PBXContainerItemProxy */;
+		};
+		CE1CFE18E91A4D388B65F398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810E1F292AA84EDB810A41E4 /* ZERO_CHECK */;
+			targetProxy = AC7B7661DD0549C282EF78A6 /* PBXContainerItemProxy */;
+		};
+		E2E7F2ED89BE46CDA33B69AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 107CD7D891E1475E87FD5B68 /* ALL_BUILD */;
+			targetProxy = 5F7D8EC21DD9494CA09432FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09F0AC69D96E4D02A5B8C5BA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		14A4A099D5A14015AC8A0A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		1C2C390E9CF14A05A5EACFC0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		2BA720B546564EF9998D84A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		2C705ED272E64B088A24D778 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		510E702470A14B86A379FD72 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		53013CE2D60E42D995E1A337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		5B023012850E4A52AD8231F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtTest_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		630837366D1046DDBC317D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/build";
+			};
+			name = Debug;
+		};
+		67014938395C40CD981AC558 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		7BB949B55CE24E7E862051F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		7F2EA7B84E28492FBAD004B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_CORE_LIB, QT_GUI_LIB, QT_WIDGETS_LIB, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtCore.framework/Headers, "/Users/oleh/Documents/smop_shell/bin/Qt5.5.1/./mkspecs/macx-clang", /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtGui.framework/Headers, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/OpenGL.framework/Headers, /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtWidgets.framework/Headers, );
+				INFOPLIST_FILE = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeFiles/QtTest.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtWidgets.framework/QtWidgets /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtGui.framework/QtGui /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		84C98ADBF5CA4040A42E373F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtTest_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		8AE48DD3046A441A9895F167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/build";
+			};
+			name = Release;
+		};
+		9AE6B97799954AC387B1F422 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		9DCA655B52D74D4C8B619CBF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		ABD5F1D36AA14384951B1FA1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_CORE_LIB, QT_GUI_LIB, QT_WIDGETS_LIB, QT_NO_DEBUG, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtCore.framework/Headers, "/Users/oleh/Documents/smop_shell/bin/Qt5.5.1/./mkspecs/macx-clang", /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtGui.framework/Headers, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/OpenGL.framework/Headers, /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtWidgets.framework/Headers, );
+				INFOPLIST_FILE = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeFiles/QtTest.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtWidgets.framework/QtWidgets /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtGui.framework/QtGui /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		B0E20D8B154B4E519C68D97F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		B78AC7374BC445A49D7D87B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		D2730A6DDE4C4C038435937A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		DAA4852B6B3C4FDFA281ABC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtTest_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		DC9A0551E20E4E228880A4E3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_CORE_LIB, QT_GUI_LIB, QT_WIDGETS_LIB, QT_NO_DEBUG, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtCore.framework/Headers, "/Users/oleh/Documents/smop_shell/bin/Qt5.5.1/./mkspecs/macx-clang", /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtGui.framework/Headers, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/OpenGL.framework/Headers, /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtWidgets.framework/Headers, );
+				INFOPLIST_FILE = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeFiles/QtTest.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtWidgets.framework/QtWidgets /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtGui.framework/QtGui /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		F5B59D4E5450406CB2A372F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_CORE_LIB, QT_GUI_LIB, QT_WIDGETS_LIB, QT_NO_DEBUG, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtCore.framework/Headers, "/Users/oleh/Documents/smop_shell/bin/Qt5.5.1/./mkspecs/macx-clang", /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtGui.framework/Headers, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/OpenGL.framework/Headers, /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtWidgets.framework/Headers, );
+				INFOPLIST_FILE = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeFiles/QtTest.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtWidgets.framework/QtWidgets /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtGui.framework/QtGui /Users/oleh/Documents/smop_shell/bin/Qt5.5.1/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		FD9E8E00DB8D49EBBA000247 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode", /Users/oleh/Documents/test/FuckingCMake/QtTest, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtTest_automoc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F140798C93B4937A0DC2B10 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB949B55CE24E7E862051F6 /* Debug */,
+				B78AC7374BC445A49D7D87B6 /* Release */,
+				9AE6B97799954AC387B1F422 /* MinSizeRel */,
+				510E702470A14B86A379FD72 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		48C0699413B7411FB799BB8F /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2730A6DDE4C4C038435937A /* Debug */,
+				53013CE2D60E42D995E1A337 /* Release */,
+				9DCA655B52D74D4C8B619CBF /* MinSizeRel */,
+				1C2C390E9CF14A05A5EACFC0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		55AD2279E40E42549AE19BA5 /* Build configuration list for PBXAggregateTarget "QtTest_automoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA4852B6B3C4FDFA281ABC4 /* Debug */,
+				5B023012850E4A52AD8231F6 /* Release */,
+				FD9E8E00DB8D49EBBA000247 /* MinSizeRel */,
+				84C98ADBF5CA4040A42E373F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		57125C3D55144AD08AC4BB22 /* Build configuration list for PBXNativeTarget "QtTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2EA7B84E28492FBAD004B8 /* Debug */,
+				F5B59D4E5450406CB2A372F2 /* Release */,
+				DC9A0551E20E4E228880A4E3 /* MinSizeRel */,
+				ABD5F1D36AA14384951B1FA1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7A7812C19B0745558EE563F1 /* Build configuration list for PBXProject "QtTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630837366D1046DDBC317D01 /* Debug */,
+				8AE48DD3046A441A9895F167 /* Release */,
+				B0E20D8B154B4E519C68D97F /* MinSizeRel */,
+				09F0AC69D96E4D02A5B8C5BA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C0B277C394A418492FBD482 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A4A099D5A14015AC8A0A42 /* Debug */,
+				2BA720B546564EF9998D84A9 /* Release */,
+				67014938395C40CD981AC558 /* MinSizeRel */,
+				2C705ED272E64B088A24D778 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4935B0873FC24908B78CC4C8 /* Project object */;
+}

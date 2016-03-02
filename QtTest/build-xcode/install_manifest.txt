@@ -1,0 +1,10 @@
+/usr/local/./QtTest.app/Contents/Info.plist
+/usr/local/./QtTest.app/Contents/MacOS/QtTest
+/usr/local/./QtTest.app/Contents/PkgInfo
+/usr/local/./QtTest.app/Contents/Resources/QtTest.icns
+/usr/local/QtTest.app/Contents/PlugIns/platforms/libqcocoa.dylib
+/usr/local/QtTest.app/Contents/PlugIns/platforms/libqcocoa_debug.dylib
+/usr/local/QtTest.app/Contents/PlugIns/platforms/libqminimal.dylib
+/usr/local/QtTest.app/Contents/PlugIns/platforms/libqminimal_debug.dylib
+/usr/local/QtTest.app/Contents/PlugIns/platforms/libqoffscreen.dylib
+/usr/local/QtTest.app/Contents/PlugIns/platforms/libqoffscreen_debug.dylib

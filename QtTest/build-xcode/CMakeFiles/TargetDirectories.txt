@@ -1,0 +1,4 @@
+/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeFiles/ALL_BUILD.dir
+/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeFiles/QtTest_automoc.dir
+/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeFiles/ZERO_CHECK.dir
+/Users/oleh/Documents/test/FuckingCMake/QtTest/build-xcode/CMakeFiles/QtTest.dir
